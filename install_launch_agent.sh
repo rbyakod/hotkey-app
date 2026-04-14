@@ -65,7 +65,11 @@ Plist: ${PLIST_PATH}
 Python: ${PYTHON_BIN}
 
 The daemon will now start at login.
-If macOS blocks key monitoring, grant Accessibility permissions to your terminal app and the selected Python binary.
+If macOS blocks key monitoring, grant permissions to this exact Python binary:
+  ${PYTHON_BIN}
+Check both macOS panes if needed:
+  System Settings > Privacy & Security > Accessibility
+  System Settings > Privacy & Security > Input Monitoring
 Logs:
   ${LOG_DIR}/hotkey-daemon.log
   ${LOG_DIR}/hotkey-daemon.error.log

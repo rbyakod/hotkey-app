@@ -1,0 +1,5 @@
+This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+Hotkey daemon cannot start because macOS has not trusted this process yet.
+Grant access to this Python binary: /Users/ravibyakod/WORK/hotkey-app/.venv/bin/python
+Open System Settings > Privacy & Security and enable this binary under Accessibility and Input Monitoring if macOS lists it there.
+Waiting for permission approval in System Settings...

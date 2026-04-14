@@ -2,6 +2,9 @@
 from flask import Flask, render_template_string, request, redirect, url_for, flash
 from hotkey_launcher import AVAILABLE_HOTKEYS, HotkeyLauncher
 
+HOST = "127.0.0.1"
+PORT = 5050
+
 app = Flask(__name__)
 app.secret_key = "change-me-dev-only"
 
@@ -120,4 +123,4 @@ def delete_mapping():
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
-    app.run("127.0.0.1", 5000, debug=True)
+    app.run(HOST, PORT, debug=True)

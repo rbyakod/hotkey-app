@@ -3,6 +3,7 @@ import json
 import os
 import platform
 import subprocess
+import tempfile
 import webbrowser
 from typing import Dict
 
@@ -40,7 +41,9 @@ LEGACY_HOTKEY_MAP = {
 class HotkeyLauncher:
     def __init__(self):
         self.app_mappings = self._init_app_mappings()
-        self.hotkey_mappings = self._load_config()
+        self.hotkey_mappings = {}
+        self._config_version = None
+        self._load_config(force=True)
 
     def _init_app_mappings(self) -> Dict[str, str]:
         # reuse / copy from voice_app_launcher.py
@@ -56,9 +59,21 @@ class HotkeyLauncher:
             # add more as needed
         }
 
-    def _load_config(self) -> Dict[str, str]:
+    def _get_config_version(self):
         if not os.path.exists(CONFIG_PATH):
+            return None
+        return os.stat(CONFIG_PATH).st_mtime_ns
+
+    def _load_config(self, force: bool = False) -> Dict[str, str]:
+        config_version = self._get_config_version()
+        if not force and config_version == self._config_version:
+            return dict(self.hotkey_mappings)
+
+        if config_version is None:
+            self.hotkey_mappings = {}
+            self._config_version = None
             return {}
+
         with open(CONFIG_PATH, "r") as f:
             hotkey_mappings = json.load(f)
 
@@ -70,15 +85,31 @@ class HotkeyLauncher:
                 changed = True
             migrated_mappings[migrated_hotkey] = target
 
+        self.hotkey_mappings = migrated_mappings
+        self._config_version = config_version
+
         if changed:
-            self.hotkey_mappings = migrated_mappings
             self._save_config()
 
-        return migrated_mappings
+        return dict(self.hotkey_mappings)
 
     def _save_config(self):
-        with open(CONFIG_PATH, "w") as f:
-            json.dump(self.hotkey_mappings, f, indent=2)
+        config_dir = os.path.dirname(CONFIG_PATH) or "."
+        os.makedirs(config_dir, exist_ok=True)
+
+        fd, temp_path = tempfile.mkstemp(prefix=".desktophotkeys.", suffix=".json", dir=config_dir)
+        try:
+            with os.fdopen(fd, "w") as f:
+                json.dump(self.hotkey_mappings, f, indent=2)
+            os.replace(temp_path, CONFIG_PATH)
+        except Exception:
+            try:
+                os.unlink(temp_path)
+            except FileNotFoundError:
+                pass
+            raise
+
+        self._config_version = self._get_config_version()
 
     def _open_finder_home(self):
         subprocess.Popen([
@@ -97,19 +128,23 @@ class HotkeyLauncher:
 
     def set_hotkey(self, hotkey: str, target_key: str):
         # hotkey like "ctrl+1", target_key like "youtube" or "calculator"
+        self._load_config()
         self.hotkey_mappings[hotkey] = target_key
         self._save_config()
 
     def remove_hotkey(self, hotkey: str):
+        self._load_config()
         if hotkey in self.hotkey_mappings:
             del self.hotkey_mappings[hotkey]
             self._save_config()
 
     def list_hotkeys(self):
-        return self.hotkey_mappings
+        self._load_config()
+        return dict(self.hotkey_mappings)
 
     def trigger(self, hotkey: str):
         """Called when a hotkey is pressed."""
+        self._load_config()
         target_key = self.hotkey_mappings.get(hotkey)
         if not target_key:
             return
