@@ -11,6 +11,7 @@ PYTHON_BIN="${REPO_ROOT}/.venv/bin/python"
 if [[ ! -x "$PYTHON_BIN" ]]; then
   PYTHON_BIN="$(python3 -c 'import sys; print(sys.executable)')"
 fi
+PYTHON_BIN="$(PYTHON_BIN="$PYTHON_BIN" python3 -c 'import os; print(os.path.realpath(os.environ["PYTHON_BIN"]))')"
 
 mkdir -p "$HOME/Library/LaunchAgents" "$LOG_DIR"
 
