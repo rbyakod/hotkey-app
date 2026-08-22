@@ -1,0 +1,1069 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "hotkey_daemon.py",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hotkey_daemon",
+      "community": 1,
+      "norm_label": "hotkey_daemon.py"
+    },
+    {
+      "label": "is_accessibility_trusted()",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_daemon_is_accessibility_trusted",
+      "community": 1,
+      "norm_label": "is_accessibility_trusted()"
+    },
+    {
+      "label": "open_privacy_settings()",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L40",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_daemon_open_privacy_settings",
+      "community": 1,
+      "norm_label": "open_privacy_settings()"
+    },
+    {
+      "label": "wait_for_macos_permissions()",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L55",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_daemon_wait_for_macos_permissions",
+      "community": 1,
+      "norm_label": "wait_for_macos_permissions()"
+    },
+    {
+      "label": "on_press()",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L76",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_daemon_on_press",
+      "community": 1,
+      "norm_label": "on_press()"
+    },
+    {
+      "label": "on_release()",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L92",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_daemon_on_release",
+      "community": 1,
+      "norm_label": "on_release()"
+    },
+    {
+      "label": "run_daemon()",
+      "file_type": "code",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L99",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_daemon_run_daemon",
+      "community": 1,
+      "norm_label": "run_daemon()"
+    },
+    {
+      "label": "hotkey_launcher.py",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hotkey_launcher",
+      "community": 2,
+      "norm_label": "hotkey_launcher.py"
+    },
+    {
+      "label": "HotkeyLauncher",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L41",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher",
+      "community": 0,
+      "norm_label": "hotkeylauncher"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L42",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._init_app_mappings()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L48",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_init_app_mappings",
+      "community": 0,
+      "norm_label": "._init_app_mappings()"
+    },
+    {
+      "label": "._get_config_version()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L62",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_get_config_version",
+      "community": 0,
+      "norm_label": "._get_config_version()"
+    },
+    {
+      "label": "._load_config()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L67",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_load_config",
+      "community": 0,
+      "norm_label": "._load_config()"
+    },
+    {
+      "label": "._save_config()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L96",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_save_config",
+      "community": 0,
+      "norm_label": "._save_config()"
+    },
+    {
+      "label": "._open_finder_home()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L114",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_open_finder_home",
+      "community": 3,
+      "norm_label": "._open_finder_home()"
+    },
+    {
+      "label": ".set_hotkey()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L139",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_set_hotkey",
+      "community": 0,
+      "norm_label": ".set_hotkey()"
+    },
+    {
+      "label": ".remove_hotkey()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L145",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_remove_hotkey",
+      "community": 0,
+      "norm_label": ".remove_hotkey()"
+    },
+    {
+      "label": ".list_hotkeys()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L151",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_list_hotkeys",
+      "community": 0,
+      "norm_label": ".list_hotkeys()"
+    },
+    {
+      "label": ".trigger()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L155",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_trigger",
+      "community": 3,
+      "norm_label": ".trigger()"
+    },
+    {
+      "label": "._open_target()",
+      "file_type": "code",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L163",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_launcher_hotkeylauncher_open_target",
+      "community": 3,
+      "norm_label": "._open_target()"
+    },
+    {
+      "label": "Called when a hotkey is pressed.",
+      "file_type": "rationale",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "hotkey_launcher_rationale_156",
+      "community": 3,
+      "norm_label": "called when a hotkey is pressed."
+    },
+    {
+      "label": "hotkey_web_config.py",
+      "file_type": "code",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hotkey_web_config",
+      "community": 2,
+      "norm_label": "hotkey_web_config.py"
+    },
+    {
+      "label": "route",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "route",
+      "community": 2,
+      "norm_label": "route"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L87",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_web_config_index",
+      "community": 2,
+      "norm_label": "index()"
+    },
+    {
+      "label": "set_mapping()",
+      "file_type": "code",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L96",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_web_config_set_mapping",
+      "community": 2,
+      "norm_label": "set_mapping()"
+    },
+    {
+      "label": "delete_mapping()",
+      "file_type": "code",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L118",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "hotkey_web_config_delete_mapping",
+      "community": 2,
+      "norm_label": "delete_mapping()"
+    },
+    {
+      "label": "install_launch_agent.sh",
+      "file_type": "code",
+      "source_file": "install_launch_agent.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "install_launch_agent",
+      "community": 4,
+      "norm_label": "install_launch_agent.sh"
+    },
+    {
+      "label": "install_launch_agent.sh script",
+      "file_type": "code",
+      "source_file": "install_launch_agent.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "install_launch_agent_sh__entry",
+      "community": 4,
+      "norm_label": "install_launch_agent.sh script"
+    },
+    {
+      "label": "start_config_gui.sh",
+      "file_type": "code",
+      "source_file": "start_config_gui.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "start_config_gui",
+      "community": 5,
+      "norm_label": "start_config_gui.sh"
+    },
+    {
+      "label": "start_config_gui.sh script",
+      "file_type": "code",
+      "source_file": "start_config_gui.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "start_config_gui_sh__entry",
+      "community": 5,
+      "norm_label": "start_config_gui.sh script"
+    },
+    {
+      "label": "start_daemon.sh",
+      "file_type": "code",
+      "source_file": "start_daemon.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "start_daemon",
+      "community": 6,
+      "norm_label": "start_daemon.sh"
+    },
+    {
+      "label": "start_daemon.sh script",
+      "file_type": "code",
+      "source_file": "start_daemon.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "start_daemon_sh__entry",
+      "community": 6,
+      "norm_label": "start_daemon.sh script"
+    },
+    {
+      "label": "status_launch_agent.sh",
+      "file_type": "code",
+      "source_file": "status_launch_agent.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "status_launch_agent",
+      "community": 7,
+      "norm_label": "status_launch_agent.sh"
+    },
+    {
+      "label": "status_launch_agent.sh script",
+      "file_type": "code",
+      "source_file": "status_launch_agent.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "status_launch_agent_sh__entry",
+      "community": 7,
+      "norm_label": "status_launch_agent.sh script"
+    },
+    {
+      "label": "stop_daemon.sh",
+      "file_type": "code",
+      "source_file": "stop_daemon.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "stop_daemon",
+      "community": 8,
+      "norm_label": "stop_daemon.sh"
+    },
+    {
+      "label": "stop_daemon.sh script",
+      "file_type": "code",
+      "source_file": "stop_daemon.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "stop_daemon_sh__entry",
+      "community": 8,
+      "norm_label": "stop_daemon.sh script"
+    },
+    {
+      "label": "uninstall_launch_agent.sh",
+      "file_type": "code",
+      "source_file": "uninstall_launch_agent.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "uninstall_launch_agent",
+      "community": 9,
+      "norm_label": "uninstall_launch_agent.sh"
+    },
+    {
+      "label": "uninstall_launch_agent.sh script",
+      "file_type": "code",
+      "source_file": "uninstall_launch_agent.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "uninstall_launch_agent_sh__entry",
+      "community": 9,
+      "norm_label": "uninstall_launch_agent.sh script"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_daemon_is_accessibility_trusted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_daemon_on_press",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_daemon_on_release",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_daemon_open_privacy_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_daemon_run_daemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_daemon_wait_for_macos_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_launcher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon",
+      "target": "hotkey_launcher_hotkeylauncher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon_wait_for_macos_permissions",
+      "target": "hotkey_daemon_is_accessibility_trusted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon_wait_for_macos_permissions",
+      "target": "hotkey_daemon_open_privacy_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon_run_daemon",
+      "target": "hotkey_daemon_wait_for_macos_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon_run_daemon",
+      "target": "hotkey_daemon_on_press",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "hotkey_daemon.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_daemon_run_daemon",
+      "target": "hotkey_daemon_on_release",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher",
+      "target": "hotkey_launcher_hotkeylauncher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_web_config",
+      "target": "hotkey_launcher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_get_config_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_init_app_mappings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_list_hotkeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_open_finder_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_open_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_remove_hotkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_save_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_set_hotkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L155",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher",
+      "target": "hotkey_launcher_hotkeylauncher_trigger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_web_config",
+      "target": "hotkey_launcher_hotkeylauncher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_init",
+      "target": "hotkey_launcher_hotkeylauncher_init_app_mappings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_init",
+      "target": "hotkey_launcher_hotkeylauncher_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_load_config",
+      "target": "hotkey_launcher_hotkeylauncher_get_config_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_save_config",
+      "target": "hotkey_launcher_hotkeylauncher_get_config_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_list_hotkeys",
+      "target": "hotkey_launcher_hotkeylauncher_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_load_config",
+      "target": "hotkey_launcher_hotkeylauncher_save_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_remove_hotkey",
+      "target": "hotkey_launcher_hotkeylauncher_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_set_hotkey",
+      "target": "hotkey_launcher_hotkeylauncher_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_trigger",
+      "target": "hotkey_launcher_hotkeylauncher_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_remove_hotkey",
+      "target": "hotkey_launcher_hotkeylauncher_save_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_set_hotkey",
+      "target": "hotkey_launcher_hotkeylauncher_save_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_open_target",
+      "target": "hotkey_launcher_hotkeylauncher_open_finder_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_hotkeylauncher_trigger",
+      "target": "hotkey_launcher_hotkeylauncher_open_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_launcher.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_launcher_rationale_156",
+      "target": "hotkey_launcher_hotkeylauncher_trigger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_web_config",
+      "target": "hotkey_web_config_delete_mapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_web_config",
+      "target": "hotkey_web_config_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "hotkey_web_config",
+      "target": "hotkey_web_config_set_mapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "hotkey_web_config_delete_mapping",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "hotkey_web_config_index",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "hotkey_web_config.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "hotkey_web_config_set_mapping",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "install_launch_agent.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "install_launch_agent",
+      "target": "install_launch_agent_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "start_config_gui.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "start_config_gui",
+      "target": "start_config_gui_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "start_daemon.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "start_daemon",
+      "target": "start_daemon_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "status_launch_agent.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "status_launch_agent",
+      "target": "status_launch_agent_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stop_daemon.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "stop_daemon",
+      "target": "stop_daemon_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "uninstall_launch_agent.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "uninstall_launch_agent",
+      "target": "uninstall_launch_agent_sh__entry",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "848aad092152e648eaf1d69bb558471915126963"
+}
