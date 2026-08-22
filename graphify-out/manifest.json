@@ -1,0 +1,52 @@
+{
+  "hotkey_daemon.py": {
+    "mtime": 1776148602.6890354,
+    "ast_hash": "d8138cff16b62b209138a76a25b19f82",
+    "semantic_hash": ""
+  },
+  "hotkey_launcher.py": {
+    "mtime": 1780895228.827881,
+    "ast_hash": "a41c8db1ec6915cf4af7cd9db04b89aa",
+    "semantic_hash": ""
+  },
+  "hotkey_web_config.py": {
+    "mtime": 1776148902.776047,
+    "ast_hash": "8a7eaea8a2f0a301b44c323c1aec84e9",
+    "semantic_hash": ""
+  },
+  "install_launch_agent.sh": {
+    "mtime": 1780895520.410354,
+    "ast_hash": "73fc1a7f8493f38b00a48dc01bfaaedc",
+    "semantic_hash": ""
+  },
+  "start_config_gui.sh": {
+    "mtime": 1776149311.7694304,
+    "ast_hash": "344614c3383d20a41b4dc3413d77081c",
+    "semantic_hash": ""
+  },
+  "start_daemon.sh": {
+    "mtime": 1776149359.5477903,
+    "ast_hash": "c9c9468b463b19e0184fd70b073e9736",
+    "semantic_hash": ""
+  },
+  "status_launch_agent.sh": {
+    "mtime": 1776148431.6680207,
+    "ast_hash": "58b4b01cf1784bd68cc86499ab3fe409",
+    "semantic_hash": ""
+  },
+  "stop_daemon.sh": {
+    "mtime": 1776149359.548193,
+    "ast_hash": "f33054cd47b4bff45e99560ed82f7434",
+    "semantic_hash": ""
+  },
+  "uninstall_launch_agent.sh": {
+    "mtime": 1776147900.7242172,
+    "ast_hash": "16ec5c9267f10648a65522116ed055bd",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1780895779.0680861,
+    "ast_hash": "b483eaf19e9eb7a0d3ff771521b1ad41",
+    "semantic_hash": ""
+  }
+}
